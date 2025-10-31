@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Possession Records — Cult Classics Reimagined</title>
+    <meta name="description" content="Museum-quality vinyl soundtracks from cult classic films. Limited-edition releases for discerning collectors.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@300;400;600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Favicon - Moon in Night Sky -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%23080a0f'/%3E%3Ccircle cx='50' cy='50' r='25' fill='%23a0b8d4' opacity='0.9'/%3E%3Ccircle cx='50' cy='50' r='25' fill='none' stroke='%23c5d8ed' stroke-width='0.5' opacity='0.5'/%3E%3Cpath d='M 35 40 Q 38 45 35 50' stroke='%23080a0f' stroke-width='1.5' fill='none' opacity='0.6'/%3E%3Cpath d='M 42 35 Q 45 42 42 48' stroke='%23080a0f' stroke-width='1.5' fill='none' opacity='0.6'/%3E%3Cpath d='M 55 42 Q 58 48 55 55' stroke='%23080a0f' stroke-width='1.5' fill='none' opacity='0.6'/%3E%3C/svg%3E">
+</head>
+<body class="loading">
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#hero">
+                    <span class="logo-line">POSSESSION</span>
+                    <span class="logo-line">RECORDS</span>
+                </a>
+            </div>
+            <div class="nav-links">
+                <a href="#releases">Releases</a>
+                <a href="#about">About</a>
+                <a href="#mission">Mission</a>
+                <a href="brand.html">Brand</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <video class="hero-video" muted loop playsinline preload="metadata">
+            <source src="img/bg.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="hero-overlay"></div>
+        <div class="hero-logo">
+            <img src="img/prlogo-05.png" alt="Possession Records Logo" class="hero-logo-image">
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="hero-title-line">Cult Classics </span><span class="hero-title-line hero-title-accent">Reimagined</span>
+            </h1>
+            <p class="hero-subtitle">Museum-quality vinyl soundtracks from the films that shaped us</p>
+            <div class="hero-cta">
+                <a href="#releases" class="btn btn-primary">Explore Collection</a>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <span>Scroll to discover</span>
+            <div class="scroll-indicator"></div>
+        </div>
+    </section>
+
+    <!-- Featured Release -->
+    <section class="featured-release">
+        <div class="container">
+            <div class="featured-grid">
+                <div class="featured-image">
+                    <div class="vinyl-mockup">
+                        <div class="vinyl-disc"></div>
+                        <div class="vinyl-sleeve" style="background: linear-gradient(135deg, rgba(12, 18, 30, 0.4) 0%, rgba(8, 12, 20, 0.6) 100%), url('img/the thing.jpg'); background-size: cover; background-position: center;"></div>
+                    </div>
+                </div>
+                <div class="featured-content">
+                    <span class="featured-label">Now Available — Limited Edition of 500</span>
+                    <h2 class="featured-title">The Thing</h2>
+                    <p class="featured-director">John Carpenter • 1982</p>
+                    <p class="featured-description">
+                        Ennio Morricone's minimalist masterpiece—a haunting synth score that defined Antarctic isolation and paranoia. 
+                        One of the legendary composer's most restrained works, featuring pulsing electronic drones and hypnotic 
+                        bass-driven themes. Newly commissioned artwork with metallic silver foil. Pressed on ice-blue translucent vinyl 
+                        from the original analog masters.
+                    </p>
+                    <div class="featured-details">
+                        <div class="detail-item">
+                            <span class="detail-label">Format</span>
+                            <span class="detail-value">Double LP, 180g</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Edition</span>
+                            <span class="detail-value">Limited to 500</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Price</span>
+                            <span class="detail-value">$88.00</span>
+                        </div>
+                    </div>
+                    <a href="#" class="btn btn-primary">Add to Collection</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Releases Grid -->
+    <section class="releases" id="releases">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">The Collection</h2>
+                <p class="section-subtitle">Every detail worth your devotion.</p>
+            </div>
+            <div class="releases-grid">
+                <div class="release-card">
+                    <div class="release-image" style="background: linear-gradient(to bottom, rgba(8, 10, 15, 0.1) 0%, rgba(8, 10, 15, 0.7) 100%), url('img/alien1979.jpg'); background-size: cover; background-position: center;">
+                        <div class="release-overlay">
+                            <span class="release-status sold-out">Sold Out</span>
+                        </div>
+                    </div>
+                    <div class="release-info">
+                        <h3 class="release-title">Alien</h3>
+                        <p class="release-meta">Ridley Scott, 1979</p>
+                        <p class="release-price">$95.00</p>
+                    </div>
+                </div>
+
+                <div class="release-card">
+                    <div class="release-image" style="background: linear-gradient(to bottom, rgba(8, 10, 15, 0.1) 0%, rgba(8, 10, 15, 0.7) 100%), url('img/vertigo.jpg'); background-size: cover; background-position: center;">
+                        <div class="release-overlay">
+                            <span class="release-status sold-out">Sold Out</span>
+                        </div>
+                    </div>
+                    <div class="release-info">
+                        <h3 class="release-title">Vertigo</h3>
+                        <p class="release-meta">Alfred Hitchcock, 1958</p>
+                        <p class="release-price">$105.00</p>
+                    </div>
+                </div>
+
+                <div class="release-card">
+                    <div class="release-image" style="background: linear-gradient(to bottom, rgba(8, 10, 15, 0.1) 0%, rgba(8, 10, 15, 0.7) 100%), url('img/the lighthouse.jpg'); background-size: cover; background-position: center;">
+                        <div class="release-overlay">
+                            <span class="release-status">Available Now</span>
+                        </div>
+                    </div>
+                    <div class="release-info">
+                        <h3 class="release-title">The Lighthouse</h3>
+                        <p class="release-meta">Robert Eggers, 2019</p>
+                        <p class="release-price">$92.00</p>
+                    </div>
+                </div>
+
+                <div class="release-card">
+                    <div class="release-image" style="background: linear-gradient(to bottom, rgba(8, 10, 15, 0.1) 0%, rgba(8, 10, 15, 0.7) 100%), url('img/annihilation.jpg'); background-size: cover; background-position: center;">
+                        <div class="release-overlay">
+                            <span class="release-status">Available Now</span>
+                        </div>
+                    </div>
+                    <div class="release-info">
+                        <h3 class="release-title">Annihilation</h3>
+                        <p class="release-meta">Alex Garland, 2018</p>
+                        <p class="release-price">$82.00</p>
+                    </div>
+                </div>
+
+                <div class="release-card">
+                    <div class="release-image" style="background: linear-gradient(to bottom, rgba(8, 10, 15, 0.1) 0%, rgba(8, 10, 15, 0.7) 100%), url('img/ex machina.jpg'); background-size: cover; background-position: center;">
+                        <div class="release-overlay">
+                            <span class="release-status preorder">Pre-Order</span>
+                        </div>
+                    </div>
+                    <div class="release-info">
+                        <h3 class="release-title">Ex Machina</h3>
+                        <p class="release-meta">Alex Garland, 2014</p>
+                        <p class="release-price">$78.00</p>
+                    </div>
+                </div>
+
+                <div class="release-card">
+                    <div class="release-image" style="background: linear-gradient(to bottom, rgba(8, 10, 15, 0.1) 0%, rgba(8, 10, 15, 0.7) 100%), url('img/solaris.jpg'); background-size: cover; background-position: center;">
+                        <div class="release-overlay">
+                            <span class="release-status sold-out">Sold Out</span>
+                        </div>
+                    </div>
+                    <div class="release-info">
+                        <h3 class="release-title">Solaris</h3>
+                        <p class="release-meta">Andrei Tarkovsky, 1972</p>
+                        <p class="release-price">$98.00</p>
+                    </div>
+                </div>
+
+                <div class="release-card">
+                    <div class="release-image" style="background: linear-gradient(to bottom, rgba(8, 10, 15, 0.1) 0%, rgba(8, 10, 15, 0.7) 100%), url('img/the birds.jpg'); background-size: cover; background-position: center;">
+                        <div class="release-overlay">
+                            <span class="release-status">Available Now</span>
+                        </div>
+                    </div>
+                    <div class="release-info">
+                        <h3 class="release-title">The Birds</h3>
+                        <p class="release-meta">Alfred Hitchcock, 1963</p>
+                        <p class="release-price">$85.00</p>
+                    </div>
+                </div>
+
+                <div class="release-card">
+                    <div class="release-image" style="background: linear-gradient(to bottom, rgba(8, 10, 15, 0.1) 0%, rgba(8, 10, 15, 0.7) 100%), url('img/rosemarys baby.jpg'); background-size: cover; background-position: center;">
+                        <div class="release-overlay">
+                            <span class="release-status">Available Now</span>
+                        </div>
+                    </div>
+                    <div class="release-info">
+                        <h3 class="release-title">Rosemary's Baby</h3>
+                        <p class="release-meta">Roman Polanski, 1968</p>
+                        <p class="release-price">$90.00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content">
+                    <h2 class="section-title">Custodians of Cinema</h2>
+                    <p class="about-text">
+                        We rescue overlooked masterpieces from obscurity, transforming forgotten soundtracks 
+                        into museum-quality artifacts. Each release is a deliberate act of preservation—
+                        working directly with original artists and composers to honor their vision.
+                    </p>
+                    <p class="about-text">
+                        Where others see niche, we see legacy. Where mainstream distributors overlook, 
+                        we enshrine. These are the films that shaped underground culture, and they deserve 
+                        the same reverence as recognized classics.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number">47</span>
+                            <span class="stat-label">Definitive Editions</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">12K+</span>
+                            <span class="stat-label">Devoted Collectors</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">500</span>
+                            <span class="stat-label">Avg. Edition Size</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="about-image-content" style="background: linear-gradient(to bottom, rgba(8, 10, 15, 0.1) 0%, rgba(8, 10, 15, 0.7) 100%), url('img/records.jpg'); background-size: cover; background-position: center;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission Section -->
+    <section class="mission" id="mission">
+        <div class="container">
+            <div class="mission-content">
+                <h2 class="section-title">Our Promise</h2>
+                <blockquote class="mission-quote">
+                    "Every release honors the original vision.<br>
+                    Every detail worth your devotion."
+                </blockquote>
+                <div class="mission-principles">
+                    <div class="principle">
+                        <h3 class="principle-title">Archival Quality</h3>
+                        <p class="principle-text">
+                            Remastered from original analog sources with the involvement of 
+                            original composers and sound designers whenever possible.
+                        </p>
+                    </div>
+                    <div class="principle">
+                        <h3 class="principle-title">Commissioned Artwork</h3>
+                        <p class="principle-text">
+                            Each release features newly commissioned art from contemporary artists 
+                            who share our passion for these films.
+                        </p>
+                    </div>
+                    <div class="principle">
+                        <h3 class="principle-title">Limited Editions</h3>
+                        <p class="principle-text">
+                            Intentionally small runs ensure each collector becomes a custodian 
+                            of film history, not just a consumer.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter" id="contact">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2 class="newsletter-title">Join the Inner Circle</h2>
+                <p class="newsletter-text">
+                    Be the first to know about new releases, pre-orders, and special events. 
+                    Our community gets early access to every edition.
+                </p>
+                <form class="newsletter-form" id="newsletterForm">
+                    <input 
+                        type="email" 
+                        class="newsletter-input" 
+                        placeholder="Enter your email address"
+                        required
+                    >
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+                <p class="newsletter-note">
+                    We respect your inbox. One email per release. Unsubscribe anytime.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4 class="footer-title">Possession Records</h4>
+                    <p class="footer-text">
+                        Museum-quality soundtracks from cult classics. 
+                        Preserving overlooked cinema one release at a time.
+                    </p>
+                </div>
+                <div class="footer-col">
+                    <h4 class="footer-heading">Explore</h4>
+                    <ul class="footer-links">
+                        <li><a href="#releases">Current Releases</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#mission">Our Mission</a></li>
+                        <li><a href="#">Upcoming</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4 class="footer-heading">Support</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Shipping Info</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4 class="footer-heading">Connect</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Newsletter</a></li>
+                        <li><a href="#">Press Kit</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Possession Records. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal-overlay" id="releaseModal">
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose">&times;</button>
+            <div class="modal-grid">
+                <div class="modal-image">
+                    <div class="vinyl-mockup">
+                        <div class="vinyl-disc"></div>
+                        <div class="vinyl-sleeve" id="modalVinylSleeve"></div>
+                    </div>
+                </div>
+                <div class="modal-details">
+                    <span class="modal-label" id="modalLabel">Available Now</span>
+                    <h2 class="modal-title" id="modalTitle">Title</h2>
+                    <p class="modal-director" id="modalDirector">Director • Year</p>
+                    <p class="modal-description" id="modalDescription">
+                        Description placeholder text.
+                    </p>
+                    <div class="modal-details-grid">
+                        <div class="detail-item">
+                            <span class="detail-label">Format</span>
+                            <span class="detail-value" id="modalFormat">Double LP, 180g</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Edition</span>
+                            <span class="detail-value" id="modalEdition">Limited Edition</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Price</span>
+                            <span class="detail-value" id="modalPrice">$0.00</span>
+                        </div>
+                    </div>
+                    <a href="#" class="btn btn-primary" id="modalButton">Add to Collection</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
